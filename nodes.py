@@ -249,7 +249,7 @@ class SealMigration:
                     max_right = max(max_right, x + w)
             
             x0 = max_right + seal_pos_x  # 在文字右侧留出边距
-            y0 = max_bottom + seal_pos_y  # 在文字下方留出边距
+            y0 = max_bottom - seal_pos_y  # 在文字下方留出边距
         else:
             # 如果没有文字，默认放置在右下角，留出200个单位的边距
             x0 = page_rect.width - 200
