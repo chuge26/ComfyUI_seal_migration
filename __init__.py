@@ -8,7 +8,7 @@ NODE_CLASS_MAPPINGS = {
 
 NODE_DISPLAY_NAME_MAPPINGS = {
     "PDFLoader": "📄 PDF加载器",
-    "SealMigration": "🔄 PDF处理器",
+    "SealMigration": "🔄 PDF印章迁移器",
     "PDFSaver": "💾 PDF保存"
 }
 
